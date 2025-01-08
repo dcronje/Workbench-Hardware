@@ -6259,6 +6259,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 116.84) (xy 247.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a26ec2-f04c-40ab-8066-49b80130daab")
+	)
+	(wire
+		(pts
 			(xy 77.47 313.69) (xy 77.47 318.77)
 		)
 		(stroke
@@ -6776,16 +6786,6 @@
 			(type default)
 		)
 		(uuid "18d44b7c-be47-416e-bc25-0a3a99b0e7ea")
-	)
-	(wire
-		(pts
-			(xy 243.84 114.3) (xy 234.95 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19894b86-7af9-4006-9203-326d8d99ee9d")
 	)
 	(wire
 		(pts
@@ -7576,16 +7576,6 @@
 			(type default)
 		)
 		(uuid "4b6396fd-6794-4308-9045-306506dc47ad")
-	)
-	(wire
-		(pts
-			(xy 234.95 121.92) (xy 243.84 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4738a2-d43f-42b9-b0de-7fd0ff470b14")
 	)
 	(wire
 		(pts
@@ -8719,16 +8709,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 119.38) (xy 247.65 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ecd431-ded4-4425-8497-1e942ad78e4a")
-	)
-	(wire
-		(pts
 			(xy 125.73 133.35) (xy 125.73 138.43)
 		)
 		(stroke
@@ -8796,16 +8776,6 @@
 			(type default)
 		)
 		(uuid "8de3b3d4-d7c7-4031-b55c-14760ee412e1")
-	)
-	(wire
-		(pts
-			(xy 234.95 116.84) (xy 247.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5a9487-8d48-4c5c-8913-4467009a1999")
 	)
 	(wire
 		(pts
@@ -9056,6 +9026,16 @@
 			(type default)
 		)
 		(uuid "9a0a2479-aa81-43fa-b56b-df0ddac64209")
+	)
+	(wire
+		(pts
+			(xy 231.14 119.38) (xy 247.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a261bcc-2de8-4ac5-b8c3-91afad2362be")
 	)
 	(wire
 		(pts
@@ -10119,6 +10099,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 121.92) (xy 243.84 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72bf0e5-3f06-4907-ae9f-9d56c2bdb09d")
+	)
+	(wire
+		(pts
 			(xy 308.61 261.62) (xy 308.61 262.89)
 		)
 		(stroke
@@ -10616,6 +10606,16 @@
 			(type default)
 		)
 		(uuid "ef1d77b1-cab6-4003-ac5a-b96631b1c4e0")
+	)
+	(wire
+		(pts
+			(xy 231.14 114.3) (xy 243.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f012d4f2-28a7-4ed9-9f9c-9a88c2319ce9")
 	)
 	(wire
 		(pts
@@ -19214,6 +19214,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 226.06 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a9f7110-b9cb-45d1-9c71-617265cc8c82")
+		(property "Reference" "J15"
+			(at 226.695 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 226.695 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD-Connectors:SMD-PinHeader_1x02_P2.54mm_Vertical"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 226.06 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9bc6dfd-4c6e-4957-a530-4cf903b67e28")
+		)
+		(pin "1"
+			(uuid "1eb366a9-7c28-4d5f-bb88-3f16f578d00e")
+		)
+		(instances
+			(project "Work Bench 3.0"
+				(path "/fca18d2c-2c7a-4282-a0fc-794620680e78"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 332.74 179.07 0)
 		(unit 1)
@@ -20935,79 +21003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 229.87 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5439852-0e3d-4689-9cef-9767a45dc8b5")
-		(property "Reference" "J37"
-			(at 230.505 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 230.505 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMD-Connectors:SMD-PinHeader_1x04_P2.54mm_Vertical"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 229.87 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6672d9ba-2085-43c1-a6aa-48f57e3d967b")
-		)
-		(pin "1"
-			(uuid "d35733ef-5de8-45cb-874a-659bbeecff98")
-		)
-		(pin "4"
-			(uuid "30a2865d-18cf-46e7-b17a-bddd8f3b0510")
-		)
-		(pin "2"
-			(uuid "2ad0e7da-ce02-446b-9c61-ca500bdaccb2")
-		)
-		(instances
-			(project "Work Bench 3.0"
-				(path "/fca18d2c-2c7a-4282-a0fc-794620680e78"
-					(reference "J37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 294.64 0)
 		(unit 1)
@@ -22538,6 +22533,74 @@
 			(project "Work Bench 3.0"
 				(path "/fca18d2c-2c7a-4282-a0fc-794620680e78"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 226.06 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c570d916-d33d-42aa-af68-77c7e8c2396e")
+		(property "Reference" "J16"
+			(at 226.695 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 226.695 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD-Connectors:SMD-PinHeader_1x02_P2.54mm_Vertical"
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3216d65b-84f6-49bb-af2a-61f86d5c94c3")
+		)
+		(pin "1"
+			(uuid "3b535e57-185a-4965-be67-ccf3014131b9")
+		)
+		(instances
+			(project "Work Bench 3.0"
+				(path "/fca18d2c-2c7a-4282-a0fc-794620680e78"
+					(reference "J16")
 					(unit 1)
 				)
 			)
