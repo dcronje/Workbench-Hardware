@@ -454,7 +454,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.75,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -464,14 +464,14 @@
         "name": "+12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 1.25,
         "via_diameter": 2.0,
         "via_drill": 0.9,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.75,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -481,14 +481,14 @@
         "name": "+5V(A)",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 1.25,
         "via_diameter": 2.0,
         "via_drill": 0.9,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.75,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -498,14 +498,14 @@
         "name": "+5V(B)",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 1.25,
         "via_diameter": 2.0,
         "via_drill": 0.9,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 1.0,
+        "clearance": 0.75,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -515,7 +515,7 @@
         "name": "+5V(C)",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 1.25,
         "via_diameter": 2.0,
         "via_drill": 0.9,
         "wire_width": 6
